@@ -24,7 +24,7 @@ statistics_produk019 = pd.DataFrame({
   'max' : [total_unit_terjual_produk019['total_unit'].max()],
   'q1' : [total_unit_terjual_produk019['total_unit'].quantile(0.25)],
   'q3' : [total_unit_terjual_produk019['total_unit'].quantile(0.75)],
-  'iqr' : [total_unit_terjual_produk019l['total_unit'].quantile(0.75) - total_unit_terjual_produk019['total_unit'].quantile(0.25)],
+  'iqr' : [total_unit_terjual_produk019['total_unit'].quantile(0.75) - total_unit_terjual_produk019['total_unit'].quantile(0.25)],
   'stdev' : [total_unit_terjual_produk019['total_unit'].std()],
   'skewness' : [total_unit_terjual_produk019['total_unit'].skew()]
 }) 
